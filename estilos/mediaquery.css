@@ -19,6 +19,23 @@
         float: right;
         width: 70%;
     }
+
+    form > input[type=submit] {
+        margin-top: 15px;
+        float: left;
+        width: 50%;
+    }
+
+    form > a.botao {
+        margin-top: 5px;
+        float: left;
+        width: 50%;
+    }
+
+    form > div.campo {
+        width: 50%;
+        float: left;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -48,4 +65,24 @@
     div#formulario > p {
         font-size: 1.2em;
     }
+
+
+    form > input[type=submit] {
+        margin-top: 15px;
+        float: left;
+        width: 49%;
+    }
+
+    form > a.botao {
+        margin-top: 5px;
+        float: left;
+        width: 49%;
+    }
+
+    form > div.campo {
+        width: 49%;
+        float: left;
+    }
+
+    
 }
